@@ -27,3 +27,8 @@ python ./src/main.py --width 256 --height 256 --size 1024
 ```
 python ./src/main.py --input input.png --size 1024
 ```
+
+# TODO
+[ ] Release binary
+
+[ ] Publish as web service.
