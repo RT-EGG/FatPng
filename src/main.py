@@ -59,7 +59,7 @@ def main(args):
 		keyword = b'IEND'
 		keyword_len = len(keyword)
 		index = None
-		for i in range(len(b) - keyword_len):
+		for i in range(len(b) - keyword_len, -1, -1):
 			if np.all(b[i:i+keyword_len] == keyword):
 				index = i
 				break
