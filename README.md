@@ -29,6 +29,8 @@ python ./src/main.py --input input.png --size 1024
 ```
 
 # TODO
-[ ] Release binary
+~~[ ] Release binary~~
 
-[ ] Publish as web service.
+[x] Publish as web service.
+
+-> [link](https://rt-egg.github.io/fat-png-web/)
